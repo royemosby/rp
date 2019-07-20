@@ -10,7 +10,7 @@
 //$bg: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
 
 //dark charcoal 90deg
-$bg: linear-gradient(60deg, #29323c 0%, #485563 100%);
+$bg: linear-gradient(0deg, #29323c 0%, #485563 100%);
 
 // peachy 90deg
 //$bg: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
@@ -21,7 +21,7 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
 }
 

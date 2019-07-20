@@ -315,18 +315,18 @@ template {
 /* BEGIN DEFAULTS */
 main {
   background: #383433;
-  background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background: linear-gradient(0deg, #29323c 0%, #485563 100%);
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center; }
 
 /* END DEFAULTS */
 /*  BEGIN INDEX */
 .placeholder-logo {
   width: 75vw;
-  max-width: 800px; }
+  max-width: 800px;
+  margin-top: 3em; }
   .placeholder-logo img {
     width: 100%; }
 
