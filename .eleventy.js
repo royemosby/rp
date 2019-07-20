@@ -6,8 +6,8 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      layouts: '_layouts',
-      includes: '_includes',
+      layouts: 'layouts',
+      includes: 'includes',
     },
     templateFormates: [
       'js',
