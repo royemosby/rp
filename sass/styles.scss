@@ -1,0 +1,29 @@
+@import "defaults/normalize";
+@import "defaults/border-box";
+@import "theme";
+
+/* BEGIN DEFAULTS */
+//early sunset at 120deg
+//$bg: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+// purple sunrise
+//$bg: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+
+//dark charcoal 90deg
+$bg: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+// peachy 90deg
+//$bg: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+main {
+  background: rgb(56, 52, 51);
+  background: $bg;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END DEFAULTS */
+@import "index";

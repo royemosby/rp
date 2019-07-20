@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en-US">
+  {% include head %}
+  <body>
+    {% include ie9 %}
+    {% comment %} {% include header %} {% endcomment %}
+    <main>
+      {{ content }}
+      </main>
+    {% comment %} {% include footer %} {% endcomment %}
+    <script src="../scripts/app.js" defer></script>
+  </body>
+</html>
